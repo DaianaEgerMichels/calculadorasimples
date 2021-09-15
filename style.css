@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-image: linear-gradient(45deg, black, pink);
+    height: 100vh;
+    color: rgb(36, 14, 32);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div{
+    position: absolute;
+    background-color: rgba(109, 39, 109,0.7);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 17px;
+    padding: 17px;
+    box-shadow: 7px 8px 5px rgba(0,0,0, 0.422);
+    margin-right: 2px;
+}
+
+button{
+    background-color: rgb(119, 95, 119);
+    width: 50px;
+    height: 50px;
+    font-size: 20pt;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+button:hover{
+    background-color: violet;
+}
+
+.igual{
+    height: 105px;
+}
+
+.zero{
+    width: 105px;
+}
+
+#resultado{
+    background-color: white;
+    width: 210px;
+    height: 32px;
+    margin: 6px;
+    font-size: 20pt;
+    color: rgb(43, 40, 40);
+    text-align: right;
+    padding: 3px;
+}
